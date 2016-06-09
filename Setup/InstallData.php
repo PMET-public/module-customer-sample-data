@@ -34,11 +34,11 @@ class InstallData implements Setup\InstallDataInterface
      */
     public function install(Setup\ModuleDataSetupInterface $setup, Setup\ModuleContextInterface $moduleContext)
     {
-        /*$setup->startSetup();
+        $setup->startSetup();
         $_customerGroup = 'VIP';
         $group = $this->groupSetup->create();
         $group->setCode($_customerGroup)->setTaxClassId(3)->save();
-        $setup->endSetup();*/
+        $setup->endSetup();
         $this->executor->exec($this->installer);
 
     }
