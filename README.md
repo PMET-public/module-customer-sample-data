@@ -2,4 +2,4 @@ MagentoEse_CustomerSampleData module consists of installation scripts and fixtur
 
 It adds a VIP customer group and 3 customers. 1 assigned to the VIP group
 
-Password for each user is password
+Password for each user is Password1
