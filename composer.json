@@ -2,12 +2,17 @@
     "name": "magentoese/module-customer-sample-data",
     "type": "magento2-module",
     "require": {
-        "magento/framework": "*"
+        "magento/framework": "*",
+        "magento/module-customer": "*",
+        "magento/module-directory": "*",
+        "magento/module-sample-data": "*",
+        "magento/module-customer-sample-data": "*"
     },
     "autoload": {
         "files": [ "registration.php" ],
         "psr-4": {
             "MagentoEse\\CustomerSampleData\\": ""
         }
-    }
+    },
+    "version": "1.0.0"
 }
